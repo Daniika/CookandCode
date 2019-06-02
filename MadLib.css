@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ 
+
+body {
+	
+  background:rgb(61, 55, 55);
+  background-repeat: no-repeat;
+  width: 900px;
+  margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: gray;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px dashed gainsboro;
+    margin-top: 30px;
+    background-color: blanchedalmond;
+    } 
+h4 {
+    color: goldenrod;
+    font-size: 16px;
+    font-family: Cambria;
+    } 
+p {
+    color: gray;
+    font-size: 18px;
+    font-family:cambria;
+    align-self: center;
+    }
+p#footnote {
+      text-align: center;
+      color: gray;
+      }
+
+form{
+  background:white;
+  align-content: center;
+  border-radius: 25;
+  margin: 0 auto;
+}
+
+label {
+      color: gray;
+      font-size: 16px;
+    font-family: Cambria;
+      }
+  
+
+  
+
+    
+    
+    
+    
+  
+  input {
+  margin-left: 10px;
+  margin-bottom: 8px;
+  }
