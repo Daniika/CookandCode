@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	
+  background-position: center;
+  background-image: url("concretee.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: gray;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px dashed gainsboro;
+    margin-top: 30px;
+    background-color: blanchedalmond;
+    } 
+h3 {
+      color:  white;
+}
+h4 {
+    color: goldenrod;
+    font-size: 14px;
+    font-family: Calibri;
+    } 
+h5 {
+      color:  white;
+      font-size: 14px;
+      font-family: Calibri;
+      } 
+em {
+    color: #abebc6;
+  
+}
+p#footnote {
+      text-align: center;
+      color: gray;
+      }
+
+    

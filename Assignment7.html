@@ -1,0 +1,91 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <meta charset="utf-8" >
+   <title>Assignment7</title>
+   <link rel="stylesheet" href="Assignment7.css">
+   <script src="Assignment7.js"></script>
+</head>
+
+<body>
+<div align="center">
+
+<table width="900" height="100" border="0.25">
+
+<tr>
+    <td colspan="2" align="center">
+    <h1>Analyzing JavaScript</h1>
+    </td>
+</tr>
+<tr>
+    <td bgcolor="6699FF" align="Center">
+<script>
+
+var FirstName = prompt("Please enter your  first name",placeholder="First Name");
+
+
+document.write("Welcome " + FirstName.toUpperCase() + "<br/>"); 
+
+document.write("Welcome " + FirstName.toUpperCase() + "<br/>");
+
+document.write("Welcome " + FirstName.toUpperCase() + "<br/>");
+</script>
+<h5>Here are the answers to some interesting JavaScript questions</h5>
+</td>
+</tr>
+<tr>
+    <td bgcolor="#17202a" align="left">
+    <h3>Part 1</h3>
+    <ul>
+         <li><h4>The result of <em>var z; alert (typeof z)</em>  is <u>Undefined</u> because The typeof operator returns a string indicating the type of an unevaluated operand.</h4></li>
+         <li><h4>The result of <em>alert(!!false);</em> is <u>False</u> because using the two "!!" which translates to not not and value false can translate to true + false which equals to false</h4></li>
+         <li><h4>The result of <em>alert(7%2)</em>;  is <u>1 </u>because the "%" which is called modulus calculates division remainders, in this case 7 can equally be divided in to two with remainder of 1 </h4></li>
+         <li><h4>"The result of <em>var name="Jim";alert(name+" Smith");</em> is <u>Jim Smith</u> because the code has variable name which equals to Jim and alerts the variable with a string "smith"</h4></li>
+         <li><h4>"The result of <em>var myNum="5"; alert(myNum+2);</em> is <u>52</u> because the code has a variable "myNum" which is assigned to a string "5" and the code alerts to print variable and the number 2.</h4></li>
+    </ul>
+    </td>
+</tr>
+
+<tr>
+    <td bgcolor="#5f6a6a" align="left">
+    <h3>Part 2</h3>      
+    <ol>
+        <li>Describe a few important differences between Java and Javascript.</p></li>
+        <h5>JavaScript is an object oriented <em>scripting</em> language mainly used to make web pages more interactive, and it is run only on a browsers ,</br>
+            while Java is object-oriented <em>programming</em> language used to creates applications that run in virtual machines or browsers.</h5>
+            
+        <li>Explain the difference between the + and ++ operators in Javascript.</li>
+        <h5>The single "+" operator in javascript is used to add values, while the double "++" operator is used to increment values.</h5>
+
+        <li>What are the differences between using window.alert(), console.log(), and document.write() ?</li>
+        <h5>Window.alert("") is a popup alert, while console.log("") outputs whatever is parameter to log() to a console
+                e.g. console.log("test") will output "test" to a console.document.write("") adds whatever values to html 
+                e.g. document.write("paragraph") will add a new paragraph to a document.</h5>
+
+        <li>Explain the differences between =, ==, and the === operators.</li>
+        <h5>  "=" is an assignment operator that assigns a value to its left operand based on the value of its right. "==" also called Equal, is a comparision operator that returns true if the
+             operands are equal in value no matter what type, string, or numeric, while "===" also called Strict Equal, returns true ONLY if operands are eqaul and of same type.</h5>          
+
+        <li>Describe the differences between two types of loops: while and do while.</li>
+        <h5>The do while loop executes the content of the loop once before checking the condition of the while.Whereas a while loop will check the condition first before executing the content.
+            The most important difference between while and do-while is that in do-While, the block of code is executed at least once; ie, the do-while loop runs at least once, 
+            even though the condition given is false. This means that while is Entry Controlled and do-while is Exit Controlled.</h5>    
+
+                
+                
+
+                
+    </ol>
+    </td>
+   
+        
+</tr>
+
+
+</table>    
+<p id=footnote><input type="button" Value="Reload" onClick="window.location.reload();"></p>
+
+
+</div>
+</body>
+</html>
