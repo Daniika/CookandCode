@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Battleship Game</title>
+<link rel="stylesheet" type="text/css" href="battle.css">
+<style> 
+	@font-face {
+	  font-family: myFirstFont;
+	  src: url(vinque.ttf);
+	}
+	
+	h1 {
+	  font-family: myFirstFont;
+	}
+	</style>
+
+<body>
+
+<table align="center" width="900" height="100" border="0.25">
+<tr>
+<td id="gamearea" colspan="2"><h1>Battleship Game</h1>
+	
+<h5>Welcome, Pirate. You said your are good at targeting merchant ships. Let's see what you got !</h5>
+  
+<p>Guess a number from 1 to 20:</p><input type="text" size="2" id="guess" autofocus>
+<button onclick="checkGuess();">Shooot !</button>
+  
+
+ 
+<div id="gameboard"></div>
+</td>
+</tr>
+
+
+<tr>
+<td id="messagearea"><output id="Output">You have not guessed anything....Are you afraid?</output></td>
+ 
+
+	
+<td id="guesscount"></td>
+
+
+</tr>
+</table>
+	
+<div align="center"><button onclick="clearFields(); window.location.reload()">Play Again</button></div>   
+
+
+
+<script type="text/javascript" src="battle.js"></script>
+</body>
+</html>
