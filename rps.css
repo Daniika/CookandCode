@@ -36,7 +36,7 @@ html {
 	border-top-right-radius:20px;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius:20px;
-	background-image: url("tealblue.jpg");
+	background-image: url("tealblue.gif");
 	background-position:center;
 	background-repeat: no-repeat;
 	background-size:cover;
@@ -52,7 +52,7 @@ html {
 	border-top-right-radius:20px;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius:20px;
-	background-image: url("tealblue.jpg");
+	background-image: url("tealblue.gif");
 	background-position:center;
 	background-repeat: no-repeat;
 	background-size:cover;
@@ -96,7 +96,7 @@ P{
 #Rock {
 	color: transparent; 
 	border: 0;
-	background-image: url(rock.jpg);
+	background-image: url(rock.gif);
 	height: 85px;
 	width: 100px;
 	background-color: transparent;
@@ -106,7 +106,7 @@ P{
 #Paper {
 	color: transparent;
 	border: 0;
-	background-image: url(paper.jpg);
+	background-image: url(paper.gif);
 	background-repeat: no-repeat;
 	height: 85px;
 	width: 100px;
@@ -116,7 +116,7 @@ P{
 #Scissors {
 	color: transparent;
 	border: 0;
-	background-image: url(scissors.jpg);
+	background-image: url(scissors.gif);
 	height: 85px;
 	width: 100px;
 	background-color: transparent;
@@ -164,6 +164,8 @@ text-align:center;
 }
 #scissors:hover {
     background-color: yellow;
+    height: 90px;
+    width: 105px;
 }  
 .game-container {
 	max-width:475px;
