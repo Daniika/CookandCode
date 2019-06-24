@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="UTF-8">
+<title>Rock Paper Scissors </title>
+  
+  
+  
+<link rel="stylesheet" href="rps.css">
+
+  
+</head>
+
+<body>
+        
+<!-- Intro window -->
+
+<section id="introScreen">
+
+        <h1>Rock Paper Scissors</h1>
+        
+        <div class="intro">
+        <p>Like kanji, fireworks, and General Tsao's chicken; rock, paper, scissors</br> 
+            was actually created in China.The game was created around the time</br> of
+            Christ, but stayed in China for hundreds of years. It wasn't until the</br> 
+            1700s that it made its way over to Japan. The rest, as they say, is history...</br>
+            Enough of that....
+            if you want to challenge AI with this primitive game...go ahead press play.</p> 
+            
+        <button id="start">Play!</button></div>   
+        <div class="rules"><img src="beats.gif"></div>
+
+</section>
+    
+
+<!-- Game window -->
+
+<section id="gameScreen">
+
+<h1>Rock Paper Scissors</h1>
+
+<div class="game-container">
+    <h2>Computer Choice</h2>
+    <div class="static-box">
+    <img src="rock.jpg">
+    <img src="paper.jpg">
+    <img src="scissors.jpg"></div>  
+  
+
+   
+    <h2>Human Choice</h2>
+    <div class="button-box">
+	<button id="Rock">Rock</button>
+	<button id="Paper">Paper</button>
+	<button id="Scissors">Scissors</button></div>
+    
+</div>
+       
+<div class="score-container">
+        
+        <table>
+            <tr><td><h2>Game score</h2></td></tr>
+            <tr><td><h5 id="computer"></h5></td></tr>
+            <tr><td><h5 id="player"></h5></td></tr>
+            <tr><td><h3 id="result"></h3></td></tr>    
+        </table>                       
+                                   
+</div>
+
+<div class="counter-container">
+        
+<p id="counter"></p>
+</div>
+
+</section>
+  
+
+
+
+
+
+
+<script>
+//declare screen settings
+
+var startBtn = document.getElementById("start");
+var introScreen = document.getElementById("introScreen");
+var gameScreen = document.getElementById("gameScreen");
+        
+var displayGameScreen = function( ) {
+// Hide the intro screen, show the game screen
+introScreen.style.display = "none";
+gameScreen.style.display = "block";
+}
+
+var displayIntroScreen = function( ) {
+// Show the intro screen, hide the game screen
+introScreen.style.display = "block";
+gameScreen.style.display = "none";
+}
+                
+startBtn.onclick = displayGameScreen;
+
+</script>
+  
+<script src="rps.js"></script>
+
+</body>
+</html>

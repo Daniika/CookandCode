@@ -1,0 +1,211 @@
+html {
+	
+
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 75px; 
+	padding: 25px;	
+}
+
+  
+@font-face {
+	font-family: myFirstFont;
+	src: url(fofbb_reg.ttf);
+}
+ 
+#introScreen {
+	border-top-left-radius: 20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius:20px;
+	background-image: url("tealblue.jpg");
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	width: 775px;
+	height:500px;
+	position: relative;
+	margin:25px auto;
+	padding:25px;
+	
+}
+  
+#gameScreen {
+	border-top-left-radius: 20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius:20px;
+	background-image: url("tealblue.jpg");
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	width: 775px;
+	height:500px;
+	position: relative;
+	margin:25px auto;
+	padding:25px;
+	display:none;
+}
+#endscreen {
+	border-top-left-radius: 20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius:20px;
+	background-image: url("tealblue.jpg");
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	width: 775px;
+	height:500px;
+	position: relative;
+	margin:25px auto;
+	padding:25px;
+	display:none;
+}
+
+  
+h1 {
+	text-align: left;
+	font-size: 45px;
+	color:charcoal;
+	border-bottom: 1px dashed goldenrod;
+	font-family: myFirstFont;  
+} 
+
+h2 {
+	text-align:left;
+	color:charcoal;
+	font-family: myFirstFont;
+}
+
+h3 {
+  text-align:right;
+  color:charcoal;
+  font-family: myFirstFont;
+}
+
+P{
+  right: 0.1in;
+  font-family:calibri;
+}
+
+
+
+  
+#Rock {
+	color: transparent; 
+	border: 0;
+	background-image: url(rock.jpg);
+	height: 85px;
+	width: 100px;
+	background-color: transparent;
+	
+}
+  
+#Paper {
+	color: transparent;
+	border: 0;
+	background-image: url(paper.jpg);
+	background-repeat: no-repeat;
+	height: 85px;
+	width: 100px;
+	background-color: transparent;
+}
+  
+#Scissors {
+	color: transparent;
+	border: 0;
+	background-image: url(scissors.jpg);
+	height: 85px;
+	width: 100px;
+	background-color: transparent;
+	
+}
+  
+h5 {
+	text-align: center;
+}
+  
+h3 {
+	text-align: center; 
+}
+  
+.button-box {
+text-align:center; 
+
+	
+}
+
+
+#Rock{
+	  
+	margin-left: 30px;
+	margin-top: 5px;
+  
+}
+#Rock:hover {
+    background-color: yellow;
+}  
+#Paper{
+	  
+	margin-left: 30px;
+	margin-top: 5px;
+    
+}
+#Paper:hover {
+    background-color: yellow;
+}  
+#Scissors{
+	  
+	margin-left: 30px;
+	margin-top: 5px;
+  
+}
+#scissors:hover {
+    background-color: yellow;
+}  
+.game-container {
+	max-width:475px;
+	float: left;
+    width: 100%;
+    margin: 10px auto 0;
+    padding:15px 20px;
+    
+	border: 1px solid #eee;
+}
+
+.score-container {
+	max-width:200px;
+	float: right;
+    width: 100%;
+    margin: 10px auto 0;
+    padding:15px 20px;  
+	border: 1px solid #eee;	
+}
+
+.counter-container {
+	max-width:200px;
+	float: right;
+    width: 100%;
+    margin: 10px auto 0;
+    padding:15px 20px;
+	border: 1px solid #eee;	
+}
+
+
+.intro {
+	max-width:450px;
+	float: left;
+    
+    
+}
+
+.rules {
+	max-width:300px;
+	float: right;
+	
+}
+.static-box {
+    text-align: center;
+}
